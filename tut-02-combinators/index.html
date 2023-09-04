@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Combinators</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Combinators</h1>
+    </header>
+    <main>
+      <section id="sec-01">
+        <div>
+          <h2>
+            Combinators are used to combine multiple selectors to specify the
+            target element
+          </h2>
+          <h2>Types of combinators</h2>
+          <ol>
+            <li>
+              Child combinator (<code> main selector > target selector </code>)
+              <p>
+                it will only select the direct children
+              </p>
+            </li>
+            <li>
+              Descendent combinator (<code>
+                main selector "empty space" target selector </code
+              >)
+              <p>
+                it will select all the childrens inside the parent tag
+              </p>
+            </li>
+            <li>
+              General Sibling combinator (<code>
+                main selector ~ target selector </code
+              >)
+              <p>
+                this will target all the sibling elements
+              </p>
+            </li>
+            <li>
+              Adjacent Sibling combinator (<code>
+                main selector + target selector </code
+              >)
+            </li>
+          </ol>
+        </div>
+      </section>
+      <hr />
+      <section id="sec-02">
+        <article id="article-one">
+          <h2>Heading One</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <h3>Heading Two</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <h4>Heading Three</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <article id="child__article--sec-02">
+            <h4>This is also article</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore, nemo ipsum. Placeat at quam quisquam tenetur dolorum
+              voluptas possimus, debitis similique? Ipsam impedit esse quis
+              pariatur odit quo incidunt laborum.
+            </p>
+          </article>
+        </article>
+        <hr />
+        <article id="article-two">
+          <h2>Heading One</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <h2>Heading Two</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <h2>Heading Three</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <article>
+            <h4>This is also article</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore, nemo ipsum. Placeat at quam quisquam tenetur dolorum
+              voluptas possimus, debitis similique? Ipsam impedit esse quis
+              pariatur odit quo incidunt laborum.
+            </p>
+          </article>
+        </article>
+        <hr />
+        <article id="article-three">
+          <h2>Heading One</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <h3>Heading Two</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <h4>Heading Three</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+          <article>
+            <h4>This is also article</h4>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Inventore, nemo ipsum. Placeat at quam quisquam tenetur dolorum
+              voluptas possimus, debitis similique? Ipsam impedit esse quis
+              pariatur odit quo incidunt laborum.
+            </p>
+          </article>
+          <hr>
+          <article id="article-four">
+            <h2>Heading One</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  
+            <h3>Heading Two</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  
+            <h4>Heading Three</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <h5>Heading 5</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  
+            <article>
+              <h4>This is also article</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore, nemo ipsum. Placeat at quam quisquam tenetur dolorum
+                voluptas possimus, debitis similique? Ipsam impedit esse quis
+                pariatur odit quo incidunt laborum.
+              </p>
+            </article>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
