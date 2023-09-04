@@ -1,0 +1,22 @@
+/* types of css selectors */
+/* tag selector */
+h3 {
+  color: blueviolet;
+}
+
+p {
+  color: orange;
+}
+/* class selector */
+.heading {
+  background-color: bisque;
+}
+
+/* id selector */
+#external {
+  background-color: rgb(182, 129, 231);
+}
+/* attribute selectors */
+button[disabled] {
+  background-color: blueviolet;
+}
