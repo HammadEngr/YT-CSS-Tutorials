@@ -1,0 +1,32 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+}
+.target-1 {
+  font-size: 32px;
+}
+
+/* for specifity */
+
+#specificity #my-target {
+  color: yellow;
+}
+
+#my-target {
+  color: green;
+}
+
+.target-2 {
+  color: red;
+}
+
+h4 {
+  color: blue;
+}
+
+#specificity h4 {
+  color: cyan;
+}
+
+#specificity .target-2 {
+  color: magenta;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Specificity</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .target-1 {
+        font-size: 48px;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="header" class="main-header" name="specificity">
+      <h1>Cascading, Specificity and Inheritance</h1>
+    </header>
+    <main>
+      <section id="theory">
+        <h2>What is <em>"Cascade"</em> in general ?</h2>
+        <p>
+          A small waterfall, typically one of several that fall in stages down a
+          steep rocky slope.
+          <span
+            ><u><b>OR</b></u></span
+          >
+        </p>
+        <p>
+          A process whereby something, typically information or knowledge, is
+          successively passed on
+        </p>
+        <hr />
+        <h2>What is <em>Cascade</em> in CSS ?</h2>
+        <figure>
+          <img src="./cascade.jpg" alt="cascade" width="400px" />
+          <figcaption>The cascade in css</figcaption>
+        </figure>
+        <ol>
+          <li>The closest rules wins</li>
+          <li>The most specific rule wins</li>
+        </ol>
+      </section>
+      <hr />
+      <section id="cascade">
+        <h2>The closest Rule</h2>
+        <h3 class="target-1" style="font-size: 20px">I am learning CSS</h3>
+      </section>
+      <hr />
+      <section id="specificity">
+        <h2>What is specificity ?</h2>
+        <h4 id="my-target" class="target-2">CSS IS FUN</h4>
+      </section>
+      <hr />
+      <section>
+        <h2>Inheritance</h2>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; All Rights Reserved, MH-BASIT</p>
+    </footer>
+  </body>
+</html>
